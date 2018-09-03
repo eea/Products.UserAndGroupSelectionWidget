@@ -3,8 +3,8 @@
 Changes
 -------
 
-3.0 (unreleased)
-----------------
+3.0.rc1 (2018-09-03)
+--------------------
 
 - Speedup groups listing from LDAP [avoinea]
 

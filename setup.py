@@ -1,12 +1,12 @@
 # Copyright 2008-2009, BlueDynamics Alliance, Austria - http://bluedynamics.com
-# BSD derivative License 
+# BSD derivative License
 
 import sys
 from setuptools import setup
 from setuptools import find_packages
 
 
-version = '3.0dev'
+version = '3.0.rc1'
 
 if sys.version_info < (2, 7):
     extra_install_requires = ['ordereddict']
@@ -27,7 +27,7 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
-        ], 
+        ],
     keywords='zope zope2 plone archetypes z3cform widget user',
     author='BlueDynamics Alliance',
     author_email='dev@bluedynamics.com',
